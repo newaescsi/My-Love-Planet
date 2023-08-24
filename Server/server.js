@@ -13,6 +13,7 @@ app.get('/'):
 Hier wird eine HTTP-GET-Anfrage auf der Wurzelroute ("/") definiert. 
 Das bedeutet, dass, wenn jemand die Haupt-URL der Website besucht (z.B. http://www.example.com/), dieser Codeblock ausgeführt wird.
 */
+
 app.get('/', (req, res) => {
 res.send('Hello von Express');
 });
