@@ -9,6 +9,19 @@ import LandingPage3 from "./pages/LandingPage3";
 import LandingPage4 from "./pages/LandingPage4";
 import { useEffect } from "react";
 
+/*
+Die Komponenten Routes und Route werden aus "react-router-dom" importiert. Diese Komponenten werden verwendet, um die Routing-Struktur der Anwendung zu definieren.
+*/
+/*
+Diese Imports werden verwendet, um die Routing- und Navigationsstruktur für die Anwendung festzulegen.
+*/
+
+/*
+Die Hooks useNavigationType und useLocation werden ebenfalls aus "react-router-dom" importiert. Diese Hooks liefern Informationen über Navigationsaktionen und die aktuelle Position im Routing.
+*/
+
+
+
 function App() {
   const action = useNavigationType();
   const location = useLocation();
